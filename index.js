@@ -25,5 +25,6 @@ function destructivelyRemoveFirstKitten() {
 
 // Append kitten to the kittens array AND return a new array, leaving the kittens array unchanged aka "Non-mutated"
 function appendKitten() {
-  
+  var kittens = [...kittens, 'Broom'];
+  return kittens;
 }
