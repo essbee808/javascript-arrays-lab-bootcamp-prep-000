@@ -10,3 +10,9 @@ function destructivelyPrependKitten() {
   kittens.unshift('Bob');
   return kittens;
 }
+
+// Removes the last kitten from the kittens array
+function destructivelyRemoveLastKitten() {
+  kittens.pop('Garfield');
+  return kittens;
+}
