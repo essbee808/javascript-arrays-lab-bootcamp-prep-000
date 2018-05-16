@@ -22,3 +22,8 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift('Milo');
   return kittens;
 }
+
+// Append kitten to the kittens array AND return a new array, leaving the kittens array unchanged aka "Non-mutated"
+function appendKitten() {
+  
+}
