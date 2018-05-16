@@ -5,3 +5,7 @@ function destructivelyAppendKitten() {
   return kittens;
 }
 
+// Prepends a kitten to the beginning of the array
+function destructivelyPrependKitten() {
+  
+}
