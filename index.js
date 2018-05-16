@@ -28,3 +28,8 @@ function appendKitten() {
   var kittens2 = [...kittens, 'Broom'];
   return kittens2;
 }
+
+// Prepend kitten to array AND return new array, aka "Non-mutated"
+function prependKitten() {
+  var kittens3 = []
+}
