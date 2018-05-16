@@ -38,5 +38,6 @@ function prependKitten() {
 // Remove last kitten in array and return new array, aka "Non-mutated"
 function removeLastKitten() {
   const kittens = ["Milo", "Otis", "Garfield"];
-  
+  const kittenRemoved = kittens.slice(1, 3);
+  return kittenRemoved;
 }
