@@ -45,6 +45,6 @@ function removeLastKitten() {
 // Remove first kitten from array AND return new array, aka "Non-mutated"
 function removeFirstKitten() {
   const kittens = ["Milo", "Otis", "Garfield"];
-  var firstKittenRemoved = kittens.slice(0);
+  var firstKittenRemoved = kittens.slice(0, 1);
   return firstKittenRemoved;
 }
