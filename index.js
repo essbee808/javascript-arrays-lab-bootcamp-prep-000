@@ -25,12 +25,17 @@ function destructivelyRemoveFirstKitten() {
 
 // Append kitten to the kittens array AND return a new array, leaving the kittens array unchanged aka "Non-mutated"
 function appendKitten() {
-  var kittens2 = [...kittens, 'Broom'];
-  return kittens2;
+  var addKitten = [...kittens, 'Broom'];
+  return addKitten;
 }
 
 // Prepend kitten to array AND return new array, aka "Non-mutated"
 function prependKitten() {
-  var kittens3 = ['Arnold', ...kittens];
-  return kittens3;
+  var welcomeArnold = ['Arnold', ...kittens];
+  return welcomeArnold;
+}
+
+// Remove last kitten in array and return new array, aka "Non-mutated"
+function removeLastKitten() {
+  var byeByeKitty = [] 
 }
