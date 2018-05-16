@@ -31,5 +31,6 @@ function appendKitten() {
 
 // Prepend kitten to array AND return new array, aka "Non-mutated"
 function prependKitten() {
-  var kittens3 = []
+  var kittens3 = ['Arnold', ...kittens];
+  return kittens3;
 }
