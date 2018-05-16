@@ -4,3 +4,4 @@ function destructivelyAppendKitten() {
   kittens.push('Ralph');
   return kittens;
 }
+
