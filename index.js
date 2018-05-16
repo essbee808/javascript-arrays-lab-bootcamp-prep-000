@@ -41,3 +41,10 @@ function removeLastKitten() {
   var kittenRemoved = kittenFam.slice(0, 2);
   return kittenRemoved;
 }
+
+// Remove first kitten from array AND return new array, aka "Non-mutated"
+function removeFirstKitten() {
+  const kittenFam = ["Milo", "Otis", "Garfield"];
+  var firstKittenRemoved = kittenFam.slice(0, 1);
+  return firstKittenRemoved;
+}
